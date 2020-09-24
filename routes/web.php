@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
-use App\Http\Controllers\contactController;
-use App\Http\Controllers\productController;
+use App\Http\Controllers\registerController;
+use App\Http\Controllers\loginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +17,5 @@ use App\Http\Controllers\productController;
 */
 
 Route::get('/home', [homeController::class, 'home'])->name('home');
-Route::get('/products', [productController::class, 'product'])->name('products');
-Route::get('/contact', [contactController::class, 'contact'])->name('contact');
+Route::get('/register', [registerController::class, 'register'])->name('register');
+Route::get('/login', [loginController::class, 'login'])->name('login');
