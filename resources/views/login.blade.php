@@ -11,7 +11,7 @@
 
 <body class="text-center">
     <form class="form-signin">
-        <div class="container-fluid shadow-sm p-3 mb-5 bg-white rounded">
+        <div class="container-fluid shadow-sm p-3 mb-5 bg-dark text-light rounded">
 
         <div class="mb-4">
             <img  src="{{asset('/images/logoKraken.png')}}" alt="" width="72" height="72">
@@ -31,7 +31,7 @@
             </label>
         </div>
 
-        <button class="btn btn-lg btn-outline-dark btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-outline-light btn-block" type="submit">Sign in</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2020 V1</p>
         </div>
     </form>
